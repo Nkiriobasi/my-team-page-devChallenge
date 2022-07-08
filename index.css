@@ -97,7 +97,7 @@ body{
 
 
 .team-row{
-    margin-top: 5rem;
+    margin-top: 5.625rem;
     display: flex;
     justify-content: flex-start;
 }
@@ -135,8 +135,9 @@ body{
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1rem;
+    text-transform: uppercase;
     position: relative;
-    top: -16.375rem;
+    top: -16.875rem;
     right: -8.125rem;
     transform: rotate(90deg);
 }
