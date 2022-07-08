@@ -84,7 +84,7 @@ body{
 
 .who-we-are-p-text{
     width: 439px;
-    height: 87px;
+    height: auto;
     font-family: var(--Poppins);
     font-style: normal;
     font-weight: 400;
@@ -126,6 +126,7 @@ body{
     line-height: 27px;
     color: var(--black-color);
     text-transform: capitalize;
+    margin-top: 0.5rem;
 }
 
 .team-member-position{
