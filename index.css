@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --PT-serif: 'PT Serif', serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+
+    --black-color: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* main */
+.main{
+    width: inherit;
+    height: inherit;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.top-left-text{
+    width: 278px;
+    line-height: 1;
+    margin-right: auto;
+}
+
+.creative-crew-text{
+    width: auto;
+    height: auto;
+    font-family: var(--PT-serif);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.045em;
+    color: var(--black-color);
+    margin-right: auto;
+}
+
+.top-right-text{
+    width: auto;
+    height: auto;
+}
+
+.who-we-are-head-text{
+    width: 117px;
+    height: 27px;
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    display: inline-flex;
+    margin-bottom: 0.5rem;
+}
+
+.who-we-are-p-text{
+    width: 439px;
+    height: 87px;
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--black-color);
+}
+
+
+
+
+.team-row{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.team-col{
+    width: auto;
+    height: auto;
+    margin-right: auto;
+}
+
+
+.team-col:nth-child(3n + 2){
+    transform: translateY(20%);
+}
+
+.team-member-img{
+    width: 238px;
+    height: auto;
+}
+
+.team-member-name{
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: var(--black-color);
+    text-transform: capitalize;
+}
+
+.team-member-position{
+    font-family: var(--PT-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    position: relative;
+    top: -16.375rem;
+    right: -8.125rem;
+    transform: rotate(90deg);
+}
+
+
+.footer{
+    width: 100%;
+    margin-top: 12.5rem;
+}
+
+.footer-text{
+    color: #A9A9A9;
+    text-align: center;
+    font-family: var(--Montserrat);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.usern{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+	/*Big smartphones [426px -> 600px]*/
+}
