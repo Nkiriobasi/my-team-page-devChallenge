@@ -40,14 +40,16 @@ body{
 .header-text{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .top-left-text{
     width: 278px;
     line-height: 1;
-    margin-right: auto;
+    margin-right: 11.375rem;
+    margin-bottom: 3rem;
 }
 
 .creative-crew-text{
@@ -96,21 +98,25 @@ body{
 
 
 
+
 .team-row{
     margin-top: 5.625rem;
+    margin-bottom: 12.5rem;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-col{
     width: auto;
     height: auto;
-    margin-right: auto;
+    padding: 0 3.875rem 3.875rem 0;
 }
 
 
 .team-col:nth-child(3n + 2){
-    transform: translateY(20%);
+    transform: translateY(25%);
 }
 
 .team-member-img{
@@ -130,22 +136,20 @@ body{
 }
 
 .team-member-position{
+    position: relative;
+    top: -270px;
+    right: -130px;
     font-family: var(--PT-serif);
     font-style: normal;
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1rem;
     text-transform: uppercase;
-    position: relative;
-    top: -16.875rem;
-    right: -8.125rem;
     transform: rotate(90deg);
 }
 
-
 .footer{
     width: 100%;
-    margin-top: 12.5rem;
 }
 
 .footer-text{
@@ -166,6 +170,10 @@ body{
 
 
 
-@media only screen and (max-width: 900px){
-	/*Big smartphones [426px -> 600px]*/
+
+
+@media only screen and (max-width: 956px){
+    .team-col:nth-child(3n + 2){
+        transform: translateY(0);
+    }
 }
