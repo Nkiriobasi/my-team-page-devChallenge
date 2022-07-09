@@ -206,7 +206,7 @@ body{
     }
 
     .team-member-img{
-        width: 125px;
+        width: 120px;
     }
 
     .team-member-name{
@@ -214,10 +214,11 @@ body{
     }
 
     .team-member-position{
-        top: -150px;
+        top: -145px;
         right: -70px;
     }
 }
+
 
 
 @media only screen and (max-width: 425px){
@@ -225,12 +226,16 @@ body{
         font-size: 20px;
     }
 
+    .team-col{
+        padding: 0 3.25rem 3.25rem 0;
+    }
+
     .team-member-img{
         width: 100px;
     }
 
     .team-member-position{
-        top: -125px;
+        top: -120px;
         right: -60px;
     }
 }
